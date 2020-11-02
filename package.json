@@ -1,0 +1,42 @@
+{
+  "name": "sky-puppy-checker-cloudflare-status",
+  "version": "1.0.0",
+  "description": "A sky puppy checker for checking cloudflarestatus.com api ",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "SKY_PUPPY_CONFIG_PATH=./test sky-puppy",
+    "version": "auto-changelog -l false --sort-commits date-desc --package --hide-credit --template changelog-template.hbs -p && mdsquash -i  CHANGELOG.md && git add -A CHANGELOG.md && git add -A README.md",
+    "postversion": "git push &&  git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phara0h/sky-puppy-checker-cloudflare-status.git"
+  },
+  "keywords": [
+    "sky",
+    "health",
+    "check",
+    "puppy",
+    "sky-puppy",
+    "cloudflare"
+  ],
+  "author": "Phara0h",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Phara0h/sky-puppy-checker-cloudflare-status/issues"
+  },
+  "homepage": "https://github.com/Phara0h/sky-puppy-checker-cloudflare-status#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.2.1",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mdsquash": "^1.0.5",
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0",
+    "sky-puppy": "latest"
+  },
+  "dependencies": {
+    "fasquest": "^3.0.1"
+  }
+}

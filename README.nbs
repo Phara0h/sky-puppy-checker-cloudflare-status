@@ -1,0 +1,31 @@
+# sky-puppy-checker-cloudflare-status
+A Sky Puppy checker for checking cloudflarestatus.com api
+
+## Install
+
+```bash
+npm install -g sky-puppy-checker-cloudflare-status
+```
+## Test
+
+```bash
+npm test
+```
+
+## Sample Config
+
+
+```json
+{
+  checkers: {
+    "sky-puppy-checker-cloudflare-status": {
+    }
+  }
+}
+
+
+```
+
+## Changelog
+
+{{doc1}}
