@@ -1,6 +1,6 @@
 {
   "name": "sky-puppy-checker-cloudflare-status",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A sky puppy checker for checking cloudflarestatus.com api ",
   "main": "./src/index.js",
   "scripts": {
